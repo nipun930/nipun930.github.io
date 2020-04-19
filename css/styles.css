@@ -610,11 +610,10 @@ pre code {
   display: flex;
   justify-content: center;
 }
-.no-gutters > .col,
-.no-gutters > [class*=col-] {
-  /* padding-right: 0;
-  padding-left: 0; */
-}
+/* .no-gutters > .col .no-gutters > [class*=col-] {
+  padding-right: 0;
+  padding-left: 0;
+} */
 
 .col-xl,
 .col-xl-auto, .col-xl-12, .col-xl-11, .col-xl-10, .col-xl-9, .col-xl-8, .col-xl-7, .col-xl-6, .col-xl-5, .col-xl-4, .col-xl-3, .col-xl-2, .col-xl-1, .col-lg,
@@ -9986,7 +9985,7 @@ hr.light {
 }
 
 #mainNav {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0.5rem 1rem #00000017;
   background-color: #fff;
   transition: background-color 0.2s ease;
 }
@@ -10030,8 +10029,8 @@ hr.light {
     padding-right: 0;
   }
   #mainNav.navbar-scrolled {
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    background-color: #fff;
+    box-shadow: 0 0.5rem 1rem rgba(22, 22, 22, 0.15);
+    background-color: #fffffffb;
   }
   #mainNav.navbar-scrolled .navbar-brand {
     color: #212529;
